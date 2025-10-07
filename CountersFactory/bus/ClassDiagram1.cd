@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="    &lt;&lt; IS &gt;&gt;">
+    <Position X="3.014" Y="4.799" Height="0.389" Width="0.922" />
+  </Comment>
+  <Class Name="CountersFactory.bus.Counter">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAEABAAEIAAAAAAAAAEBICCAAUAggABAAAA=</HashCode>
+      <FileName>bus\Counter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="color" />
+      <Field Name="madeDate" />
+      <Field Name="type" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CountersFactory.bus.DataCollection">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAACABQAAAAAAAAAACAAAIgBgAAI=</HashCode>
+      <FileName>bus\DataCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountersFactory.bus.FileManager">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>bus\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountersFactory.bus.ModuloNCounter">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAABAAAIAAAAAAAQAAAIEAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\ModuloNCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountersFactory.bus.StepCounter">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAIAAAAAAAAAAgIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>bus\StepCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CountersFactory.bus.Date">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAJAAAAAAEAAAAAAAAAAQAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>bus\Date.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="CountersFactory.bus.ICountable">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\ICountable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CountersFactory.bus.EnumColor">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAAAAAAAAAgAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>bus\EnumColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CountersFactory.bus.EnumCounterType">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>bus\EnumCounterType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
